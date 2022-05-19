@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(237, 139, 19, 0.868);
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+
+}
+
+img{
+    align-content: flex-start;
+    width: 350px;
+}
+
+.p{
+    font-size: small;
+    text-decoration: solid;
+}
+btn{
+    padding: 4px, 3px;
+    font-size: 1rem;   
+}
+h5{
+    text-transform: uppercase;
+    color: rgba(17, 17, 17, 0.932);
+}
